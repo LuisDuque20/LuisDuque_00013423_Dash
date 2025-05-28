@@ -61,6 +61,19 @@ table Dim_Calendario
 
 		annotation SummarizationSetBy = Automatic
 
+	column MesAño = FORMAT('Dim_Calendario'[Fecha], "MMM yyyy")
+		lineageTag: 5a4b3bb0-f1d7-47bc-b507-a60314217edc
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrdenMesAño = YEAR('Dim_Calendario'[Fecha]) * 100 + MONTH('Dim_Calendario'[Fecha])
+		formatString: 0
+		lineageTag: 0b76602d-69bb-4f6b-99af-fafa45a373f5
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
 	partition Dim_Calendario = m
 		mode: import
 		source =
