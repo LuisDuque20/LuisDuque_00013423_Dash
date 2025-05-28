@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "LuisDuque_00013423"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "396d123c-a9bf-40ed-b32d-b6268ec7863a"
+  }
+}

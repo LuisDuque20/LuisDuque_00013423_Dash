@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "LuisDuque_00013423"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "64e32768-3529-4952-ae36-7ba316b0bfbe"
+  }
+}
